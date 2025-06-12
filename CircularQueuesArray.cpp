@@ -2,5 +2,8 @@
 using namespace std;
 
 class Queues {
-
+private:
+    static const int MAX = 5;
+    int FRONT, REAR;
+    int queue_array[5];
 };
